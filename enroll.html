@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+	<title>Enroll For A Course</title>
+</head>
+<body>
+	<nav class="navbar navbar-nav">
+		<img src="images/ltclogo.png" width="150" height="150" style="border-radius: 150px;">
+
+		<div class="navbar nav">
+			<a href="index.html"><button class="btn btn-dark">Home <i class="fa fa-home"></i></button></a>
+			<a href="about.html"><button class="btn btn-dark">About Us <i class="fa fa-info"></i></button></a>
+			<a href="signup.html"><button class="btn btn-dark">Sign up <i class="fa fa-user-plus"></i></button></a>
+			<a href="login.html"><button class="btn btn-dark">Log In <i class="fa fa-user"></i></button></a>
+		</div>
+	</nav>
+
+
+  <form class="centered" action="registered.html">
+    <h3>Course Registeration</h3>
+    <p>Please Sign Up For Learn To Code Before Enrolling In Any Course</p>
+ 
+    <div><input type="text"name="username" placeholder="Username" minlength="6" maxlength="15" required></div>
+    <div>
+      <select>
+        <option value="C#">C#</option>
+        <option value="Python">Python</option>
+        <option value="webdev">Web Development</option>
+      </select>
+    </div>
+    <input type="radio" value="part-time" name="coursetime">Part Time Course
+    <input type="radio" value="full-time" name="coursetime" required>Full Time Course
+    <div><input type="checkbox" value="emailsub">Recieve lecture notes through email</div>
+    <div><button class="btn btn-dark">Register</button></div>
+    Haven't Signed Up Yet? <a href="signup.html"> Sign Up</a>
+  </form>
+  
+
+
+
+
+
+
+</body>
+</html>

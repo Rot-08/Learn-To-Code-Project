@@ -1,0 +1,139 @@
+body {
+	width: 100%;
+	color: #007bff;
+	border: 0;
+	margin: 0;
+	background: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a {
+	color: magenta;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+span{
+	color: #000;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    padding: 8px 0;
+    margin: 10px 0;
+    border: 1px solid #1c1e42;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.45s;
+}
+
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, select:hover {
+    border: 3px solid #007bff;
+}
+
+select {
+	height: 45px;
+}
+
+
+aside {
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+
+footer {
+	background-color: #000;
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+#login-form {
+	 margin-top: 100px;
+}
+
+.login-box {
+    margin-top: 150px;
+    width: 280px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+	text-align: center;
+	margin-top: 10%;
+}
+.intro {
+	text-align: center;
+	margin: 150px auto;
+	color: #007bff;
+}
+
+.btn {
+	background-color: #007bff;
+	color: white;
+	margin: 5px;
+	outline: none;
+	border: 2px solid #007bff;
+}
+
+
+.sections {
+	color: #007bff;
+	border: 0;
+	padding-top: 10px;
+}
+
+.course-images {
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.active {
+	color:#fff;
+	background-color:#23272b;
+	border-color:#1d2124;
+}
+
+.course-images:hover {
+	width: 170px;
+	height: 170px;
+}
+
+.media-icon {
+	font-size: 40px; 
+	color: #007bff; 
+	margin-left: 50px;
+}
+
+.footer {
+	margin: 25px 20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
